@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+html {
+    font-family: "Inter", sans-serif;
+}
+
+@utility glassmorphism {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.app {
+    @apply relative min-h-screen w-screen overflow-hidden;
+}
+
+.save-btn {
+    @apply absolute top-5 lg:top-8 right-6 lg:right-10 z-10 min-w-[155px] pl-4 pr-1.5 py-1.5 border-2 rounded-full cursor-pointer flex items-center justify-between gap-2;
+}
+
+.save-btn .icon {
+    @apply w-[35px] h-[35px] rounded-full bg-black/5 flex items-center justify-center;
+} 
+
+.save-btn .icon .line {
+    @apply w-2 h-0.5 bg-black transition-all duration-300 rounded-full;
+}
+
+.save-btn .icon.enable .line:first-of-type {
+    @apply w-[6.5px] -rotate-135 translate-y-[3.5px] translate-x-[4.5px];
+}
+
+.save-btn .icon.enable .line:last-of-type {
+    @apply w-4 rotate-135; 
+}
+
+.home {
+    @apply w-fit absolute z-10 flex flex-col gap-8 lg:gap-12 py-5 lg:py-8 px-6 lg:px-10;
+}
+
+.home-content {
+    @apply flex flex-col items-start;
+}
+
+.editor-tabs {
+    @apply glassmorphism py-4 px-2.5 rounded-lg ml-1 flex flex-col items-center gap-3; 
+}
+
+.filter-tabs {
+    @apply absolute bottom-5 left-1/2 -translate-x-1/2 z-10 flex items-center gap-4;
+}
+
+.tab-btn {
+    @apply w-12 h-12 flex items-center justify-center cursor-pointer duration-300 transition-all select-none;
+}
+
+.tab-btn.disabled {
+    @apply opacity-50 pointer-events-none;
+}
+
+.tab-content {
+    @apply absolute left-full ml-3;
+}
+
+.aipicker-textarea {
+    @apply w-full flex-1 border-1 border-[rgba(255,255,255,0.3)] focus:border-[rgba(255,255,255,0.5)] bg-transparent rounded-sm outline-none text-sm text-black/90 p-2 resize-none caret-amber-50 duration-200;   
+}
+
+/* Related To The Color Picker */
+.sketch-picker {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+} 
+
+.sketch-picker > div:nth-child(3) {
+    display: none !important;
+}
+
+/* ! Loader Is Stopted For Now */
+/* .loader {
+    --s: 20px;
+    
+    --_d: calc(0.353*var(--s));
+    width: calc(var(--s) + var(--_d));
+    aspect-ratio: 1;
+    display: grid;
+}
+.loader:before,
+.loader:after {
+    content: "";
+    grid-area: 1/1;
+    clip-path: polygon(var(--_d) 0,100% 0,100% calc(100% - var(--_d)),calc(100% - var(--_d)) 100%,0 100%,0 var(--_d));
+    background:
+        conic-gradient(from -90deg at calc(100% - var(--_d)) var(--_d),
+        #fff 135deg,#666 0 270deg,#aaa 0);
+    animation: l6 2s infinite;
+}
+.loader:after {
+    animation-delay: -1s;
+}
+@keyframes l6 {
+    0%   {transform:translate(0,0)}
+    25%  {transform:translate(30px,0)}
+    50%  {transform:translate(30px,30px)}
+    75%  {transform:translate(0,30px)}
+    100% {transform:translate(0,0)}
+} */

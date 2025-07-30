@@ -55,7 +55,7 @@ const Home = () => {
                                 {...headButtonAnimation}
                             >
                                 <CustomizeBtn 
-                                    text="Customize it"
+                                    text="Customize and Download"
                                     type="filled"
                                     handleClick={() => state.intro = false}
                                     customStyles={"text-base font-medium"}

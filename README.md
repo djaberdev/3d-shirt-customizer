@@ -30,8 +30,8 @@
 <br />
 
 <!-- Project Overview & Desc.. -->
-## 📝&nbsp; About **...**
-⇨ ...
+## 📝&nbsp; About **3D Customizer**
+⇨ 
 
 ◈ `Feature` → ...
 
@@ -51,10 +51,8 @@ https://github.com/user-attachments/assets/52c9bfcb-e391-4ec9-9a6d-4cddc48002a2
 <!-- What Learn from that Project -->
 ## 🧠&nbsp; What I Learned 
 
-① `Thing` → ...
+① `Valtio — React` → Powerful React library for seamless `State Management` and powerful `LocalStorage Data Saving` &nbsp;▸ [Valtio.Dev](https://valtio.dev/docs/introduction/getting-started) ◂&nbsp;
 
-② `Thing` → ...
+② `Framer-Motion Page Transition` → Instead of creating real & static pages, **Framer-Motion** allows me to create fake pages that can be easy animated using `<AnimatePresence />`.
 
-③ `Thing` → ...
-
-④ `Thing` → ...
+③ `Advanced React.Three.Fiber & Drei` → Dive deep into Shirt Model's Materials & Details which help me building `Interactive 3D Experience` for example: Changing Color, Texture and Logo. Evenmore engage the 3D Model with **3D Shadows, Mouse Interaction and PageLoad Animation.**

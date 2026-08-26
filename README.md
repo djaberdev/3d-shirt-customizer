@@ -39,7 +39,13 @@
 
 ◈ `Page Navigation Transition` → Enhance The `UX` with smooth transitions when users navigate different pages using `Framer-Motion`
 
-◈ `Customizeable 3D Shirt Model` → The Magic ✨ &nbsp; Explore the **Real 3D Shirt** from different angles using `Mouse-Tilt-Effect`. Evenmore you can customize the shirt's style concerning **MainColor, Logo and Texture**
+◈ `Customizeable 3D Shirt Model` → The Magic ✨ → Explore the **Real 3D Shirt** from different angles using `Mouse-Tilt-Effect`. Evenmore you can customize the shirt's style concerning **MainColor, Logo and Texture**
+
+◈ `Download The Result` → Not just Customize; you can Download the result you build as a `Full Screen Canvas` in High Qualiy.
+
+◈ `LocalStorage Save Data` → While the user customize `LocalStorage` save data `Automatically` concerning: **MainColor, usedLogo, lastPage,...**, evenmore this feature can be toggled `ON/OFF`.
+
+◈ `Eye-Catching 3D Effects` → Instead of a flat customizeable 3D Shirt Model, I used `React.3.Drei` to engage the look by providing **pageLoad Animations, Mouse-Move interaction and 3D Shadows.**
 
 <br />
 

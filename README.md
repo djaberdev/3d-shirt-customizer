@@ -23,7 +23,7 @@
 
 <!-- Project Type -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Type-3D%20Experience%20Website-d9d9d9?style=for-the-badge" alt="Project Type" />
+  <img src="https://img.shields.io/badge/Type-3D%20Experience%20landing.Page-d9d9d9?style=for-the-badge" alt="Project Type" />
 </p>
 
 <br />

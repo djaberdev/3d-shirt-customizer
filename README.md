@@ -31,7 +31,7 @@
 
 <!-- Project Overview & Desc.. -->
 ## 📝&nbsp; About **3D Customizer**
-⇨ Interactive 3D Shirt **`Landing Page`** designed to present a Real Product through a **clean, responsive and animated interface.** Showcasing **The Shirt** in a unique way since users can change it's **Color, Logo and Texture** → Download It!&nbsp; thanks to the power of `THREE.JS` & `R3F & R3Drei`. 
+⇨ Interactive 3D Shirt **`Landing Page`** designed to present a Real Product through a **clean, responsive and animated interface.** Showcasing **The Shirt** in a unique way since users can change it's **Color, Logo and Texture** → Download It!&nbsp; thanks to the power of `THREE.JS` and `R3F + R3Drei`. 
 
 ◈ `Fully Responsive` → Ensures flawless Responsiveness across all devices and screen sizes.
 
